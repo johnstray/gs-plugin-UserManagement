@@ -1,0 +1,1 @@
+<div class="error">Access Denied!<a href="" style="float:right;">Close</a></div>
