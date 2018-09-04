@@ -18,3 +18,7 @@ You can install this plugin to your GetSimple installation by following these si
 - Activate the plugin under the Plugins tab.
 
 Once installed, click on the new "User Management" sidebar item found within the "Settings" page in the Admin panel. Further information about how to use this plugin can be found by visiting the [documentation website](https://johnstray.com/gs-users/)
+
+
+* Group Management is a feature that has yet to be seen by me in any other multi-user type plugins available on GS Extend.
+^ Requires the plugin developer to enable user management support within their plugin.
