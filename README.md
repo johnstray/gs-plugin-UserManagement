@@ -1,12 +1,20 @@
 # User Management for GetSimple CMS
-An advanced User Management system for GetSimple CMS
+An advanced user management system for GetSimple CMS. This great plugin has a never-before-seen groups management feature, and the ability for an unlimited number of integrated plugins.
 
-## License
-**User Management for GetSimple CMS**  
-Copyright (C) 2016 - John Stray
+## Features Include
+- Management of Individual Users for GetSimple admin areas
+- Support for User Profiles - With the option of Front-End Display
+  - Per-User Avatar Images and Individual Settings
+- Never before seen* Group Management - Includes per group permissions
+- Custom Landing page selection which can be set on the global, group and user levels.
+- Integration support with an unlimited number of other plugins^
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+## Installation and Useage
+You can install this plugin to your GetSimple installation by following these simple instructions.
+- Download ZIP file with plugin from the GetSimple Extend Repository. 
+- Unzip it into the "plugins" folder of your GetSimple installation.
+- Ensure your /Data and /Backups folder have write permissions.
+- Log in to your GetSimple administration panel.
+- Activate the plugin under the Plugins tab.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>
+Once installed, click on the new "User Management" sidebar item found within the "Settings" page in the Admin panel. Further information about how to use this plugin can be found by visiting the [documentation website](https://johnstray.com/gs-users/)
