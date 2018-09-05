@@ -29,7 +29,7 @@
       </select>
     </p>
 
-    <p><!-- # Administrator Login Only # -->
+    <p><!-- # Default Group Membership # -->
 <label for="defaultgroup">Default Group Membership <span class="right help"><a href="#" target="_blank" title="Click for more information about this setting.">?</a></span></label>
         <span class="info-hint">For users that have no group or assigned to deleted group</span>
         <select class="text" name="defaultgroup">
