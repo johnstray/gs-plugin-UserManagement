@@ -4,8 +4,6 @@
 <div class="edit-nav">
     <p class="text 1">
         <a href="load.php?id=<?php echo USRMGMT; ?>&action=user-editor"><?php i18n(USRMGMT.'/BTN_CREATE_USER'); ?></a>
-        <a href="load.php?id=<?php echo USRMGMT; ?>&action=view-groups"><?php i18n(USRMGMT.'/BTN_MANAGE_GROUPS'); ?></a>
-        <a href="load.php?id=<?php echo USRMGMT; ?>&action=settings"><?php i18n(USRMGMT.'/BTN_SETTINGS'); ?></a>
     </p>
     <div class="clear"></div>
 </div>

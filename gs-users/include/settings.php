@@ -2,10 +2,7 @@
 <h3 class="floated" style="float:left;"><?php i18n(USRMGMT.'/SETTINGS_MANAGEMENT'); ?></h3>
 
 <div class="edit-nav">
-  <p class="text 1">
-    <a href="load.php?id=<?php echo USRMGMT; ?>&action=view-groups"><?php i18n(USRMGMT.'/BTN_MANAGE_GROUPS'); ?></a>
-    <a href="load.php?id=<?php echo USRMGMT; ?>&action=view-users"><?php i18n(USRMGMT.'/BTN_MANAGE_USERS'); ?></a>
-  </p>
+  <p class="text 1"></p>
   <div class="clear"></div>
 </div>
 
