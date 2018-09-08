@@ -229,3 +229,9 @@ function checkAdminsOnly() {
 function outputMessage($message='', $type='ok', $remove = '.removeit()') {
   echo "<script>notify('$message','$type').popit()$remove;</script>";
 }
+
+function createSupportTab() {
+    echo '<style>a.users:before {content:"\f2be";} .wrapper .nav li.rightnav a.middle {padding:4px 10px;border-radius:0;border-left:1px solid #415A66;}.wrapper .nav li.rightnav.active a.users {color:#182227;background:#f6f6f6;font-weight:bold !important;text-shadow: 1px 1px 0px rgba(255,244,255,.2);}</style>';
+    if (@$_GET['id'] == 'gs-users') {$active = ' active';} else {$active= '';}
+    echo '<script>window.onload = function(){ $(".nav .rightnav .support").parent().before(\'<li class="rightnav'.$active.'"><a class="users middle" href="load.php?id=gs-users">Users</a></li>\');}</script>';
+}

@@ -36,7 +36,7 @@ register_plugin(
 	'John Stray',
 	'https://www.johnstray.id.au/get-simple/plug-ins/gs-blog-3/', 
 	i18n_r(USRMGMT.'/PLUGIN_DESCRIPTION'),
-	'settings',
+	'users',
 	'usrm_main'  
 );
 
@@ -48,6 +48,12 @@ add_filter('checkPermission', 'exec_permission');        // Function for other p
 add_action('index-login', 'injectLoginMessage');         // Show the defined message on the login page
 add_action('successful-login-end', 'checkAdminsOnly'); // Check if only allowing Administrators
 add_action('index-pretemplate','usrm_show_user_profiles');
+    
+add_action('nav-tab', 'createSupportTab');
+add_action('users-sidebar', 'createSideMenu', array( USRMGMT, '<i class="fa fa-fw fa-user-o"></i> ' . i18n_r(USRMGMT.'/USER_MANAGEMENT'), 'view-users' ));
+add_action('users-sidebar', 'createSideMenu', array( USRMGMT, '<i class="fa fa-fw fa-object-group"></i> ' . i18n_r(USRMGMT.'/GROUPS_MANAGEMENT'), 'view-groups' ));
+add_action('users-sidebar', 'createSideMenu', array( USRMGMT, '<i class="fa fa-fw fa-cogs"></i> ' . i18n_r(USRMGMT.'/CONFIGURATION_SETTINGS'), 'settings' ));
+add_action('users-sidebar', 'createSideMenu', array( USRMGMT, '<i class="fa fa-fw fa-question-circle"></i> ' . i18n_r(USRMGMT.'/HELP_INFORMATION'), 'help' ));
 
 # Register Styles
 register_style(USRMGMT.'_css', $SITEURL.'plugins/'.USRMGMT.'/resources/admin_styles.css', USRMVERSION, 'screen');

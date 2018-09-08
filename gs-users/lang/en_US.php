@@ -22,6 +22,9 @@ $i18n = array(
   
   # Tab/Sidebar Actions (Administration)
   'USER_MANAGEMENT'           =>  'User Management',
+  'GROUPS_MANAGEMENT'         =>  'Groups Management',
+  'CONFIGURATION_SETTINGS'    =>  'Configuration Settings',
+  'HELP_INFORMATION'          =>  'Help and Information',
   
   # Action Buttons
   'BTN_MANAGE_USERS'          =>  'Manage Users',
