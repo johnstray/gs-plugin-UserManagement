@@ -61,6 +61,7 @@ $i18n = array(
   
   # User Administration
   'USERS_MANAGEMENT'          =>  'Users Management',
+  'DELETED_GROUP'             =>  'Deleted Group',
   
   # Group Administration
   'GROUP_MANAGEMENT'          =>  'Groups Management',
