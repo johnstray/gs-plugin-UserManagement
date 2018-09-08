@@ -100,6 +100,11 @@ function usrm_main() {
         include(USRMINCFOLDER.'denied.php');
         break;
       
+      /* Help and Information page */
+      case 'help';
+        include(USRMINCFOLDER.'help_information.php');
+        break;
+      
       /* # Default Action (when incorrect supplied) # */
       default:
         include(USRMINCFOLDER.'user_management.php');
