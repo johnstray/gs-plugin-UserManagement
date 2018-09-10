@@ -51,13 +51,13 @@ add_action('index-pretemplate','usrm_show_user_profiles');
     
 add_action('nav-tab', 'createSupportTab');
 if ( !isset($_GET['view-users']) && !isset($_GET['view-groups']) && !isset($_GET['settings']) && !isset($_GET['help'])) {
-    add_action('users-sidebar', 'createSideMenu', array( USRMGMT, "<i class=\"fa fa-fw fa-user-o\"></i> User Management" ));
+    add_action('users-sidebar', 'createSideMenu', array( USRMGMT, "User Management", '', true, 'fa-user' ));
 } else {
-    add_action('users-sidebar', 'createSideMenu', array( USRMGMT, "<i class=\"fa fa-fw fa-user-o\"></i> User Management", 'view-users' ));
+    add_action('users-sidebar', 'createSideMenu', array( USRMGMT, "User Management", 'view-users', true, 'fa-user' ));
 }
-add_action('users-sidebar', 'createSideMenu', array( USRMGMT, '<i class="fa fa-fw fa-object-group"></i> ' . i18n_r(USRMGMT.'/GROUPS_MANAGEMENT'), 'view-groups' ));
-add_action('users-sidebar', 'createSideMenu', array( USRMGMT, '<i class="fa fa-fw fa-cogs"></i> ' . i18n_r(USRMGMT.'/CONFIGURATION_SETTINGS'), 'settings' ));
-add_action('users-sidebar', 'createSideMenu', array( USRMGMT, '<i class="fa fa-fw fa-question-circle"></i> ' . i18n_r(USRMGMT.'/HELP_INFORMATION'), 'help' ));
+add_action('users-sidebar', 'createSideMenu', array( USRMGMT, i18n_r(USRMGMT.'/GROUPS_MANAGEMENT'), 'view-groups', true, 'fa-object-group' ));
+add_action('users-sidebar', 'createSideMenu', array( USRMGMT, i18n_r(USRMGMT.'/CONFIGURATION_SETTINGS'), 'settings', true, 'fa-cogs' ));
+add_action('users-sidebar', 'createSideMenu', array( USRMGMT, i18n_r(USRMGMT.'/HELP_INFORMATION'), 'help', true, 'fa-question-circle' ));
 
 # Register Styles
 register_style(USRMGMT.'_css', $SITEURL.'plugins/'.USRMGMT.'/resources/admin_styles.css', USRMVERSION, 'screen');
