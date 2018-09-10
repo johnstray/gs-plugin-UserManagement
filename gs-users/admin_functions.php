@@ -139,7 +139,7 @@ function reorderUserManagement() {
       unset($phpfiles[$key]);
     }
     $temp = array('gs-users.php');
-    $phpfiles = $temp + $phpfiles;
+    $phpfiles = array_merge($temp, $phpfiles);
     
     # Re-write the plugins.xml file with the new ordering
     $xml = @new SimpleXMLExtended('<?xml version="1.0" encoding="UTF-8"?><channel></channel>'); 
