@@ -1,5 +1,4 @@
-﻿<?php if(!defined('IN_GS')){die('You cannot load this file directly!');} // Security Check
-error_reporting(E_ALL & ~E_WARNING);
+<?php if(!defined('IN_GS')){die('You cannot load this file directly!');} // Security Check
 /**
  * Plugin Name: GetSimple User Management
  * Description: Enables advanced user management functions for GetSimple CMS
