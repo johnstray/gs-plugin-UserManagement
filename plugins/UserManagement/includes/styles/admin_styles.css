@@ -1,0 +1,25 @@
+/**
+ * UserManagement Plugin for GetSimple CMS
+ * Insert a description here...
+ *
+ * @package: gs-UserManagement
+ * @version: 1.0.0-alpha
+ * @author: John Stray <getsimple@johnstray.com>
+ */
+
+/* Copyright Text Section */
+.gs_usermanagement_ui_copyright-text {
+  text-shadow: 1px 1px 0 rgba(255,255,255,.4);
+  margin: -30px 250px 0 0;
+  padding: 10px 0 0;
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+}
+.gs_usermanagement_ui_copyright-text div {
+  font-size:10px;
+}
+.gs_usermanagement_ui_copyright-text a {
+  color:#888 !important;
+  text-decoration:none !important;
+}
