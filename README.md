@@ -44,12 +44,12 @@ You can install this plugin to your GetSimple installation by following these si
 - Log in to your GetSimple administration panel.
 - Activate the plugin under the Plugins tab.
 
-Once installed, click on the new "User Management" sidebar item found within the "Settings" page in the Admin panel. Further information about how to use this plugin can be found by visiting the [documentation website](https://johnstray.com/gs-users/)
+Once installed, click on the new "User Management" sidebar item found within the "Settings" page in the Admin panel. Further information about how to use this plugin can be found by visiting the [documentation wiki](https://github.com/johnstray/gs-plugin-UserManagement/wiki).
 
 ---
 
 ## Contributions
-Everyone is welcome to make suggestions on how this plugin can be improved by either submitting an issue or a pull-requests. If you would like to contribute to this project, please first have a read of the [Contributing Guidelines](CONTRIBUTING.md).
+Everyone is welcome to make suggestions on how this plugin can be improved by either submitting an issue or a pull-requests. If you would like to contribute to this project, please first have a read of the Contributing Guidelines.
 
 ## License
 This project is licensed under the terms of the GNU General Public Licence v3 (or later).
